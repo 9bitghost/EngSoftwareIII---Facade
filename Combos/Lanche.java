@@ -1,5 +1,7 @@
-package Combos
+package Combos;
 
-public interface Lanche{
-  public void preco (double preco);
+public interface Lanche {
+	
+	public String getDescricao ();
+
 }
