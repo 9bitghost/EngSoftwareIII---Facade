@@ -1,6 +1,6 @@
 package Combos;
 
-public class Bebida {
+public class Bebida implements Lanche{
 	
 	 private int ml;
 	 
@@ -14,5 +14,8 @@ public class Bebida {
 		public int getMl() {
 	        return ml;
 	    }
+
+	public void preco (double preco){
+	}
 
 }
