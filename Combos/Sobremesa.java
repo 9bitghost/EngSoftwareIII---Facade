@@ -1,6 +1,6 @@
 package Combos;
 
-public class Sobremesa {
+public class Sobremesa implements Lanche{
 	
 	private String tamanho;
 	
@@ -14,5 +14,8 @@ public class Sobremesa {
 	public String getTamanho() {
         return tamanho;
     }
+
+	public void preco(double preco){
+	}
 
 }
