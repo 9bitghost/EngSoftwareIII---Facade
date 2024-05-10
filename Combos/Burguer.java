@@ -14,8 +14,9 @@ public class Burguer implements Lanche{
 		public int getGramas() {
 	        return gramas;
 	    }
-
-	public void preco(double preco){
-	}
+		
+		public String getDescricao () {
+			return "Pão, carne e queijo";
+		}
 
 }
