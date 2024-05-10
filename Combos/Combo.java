@@ -11,14 +11,7 @@ public class Combo {
         this.sobremesa = new Sobremesa();
         this.bebida = new Bebida();
     }
-
-    public void CriarCombo() {
-        System.out.println("Itens do combo");
-        System.out.println("Burguer | Gramas: " + burguer.getGramas());
-        System.out.println("Sobremesa | Tamanho: " + sobremesa.getTamanho());
-        System.out.println("Bebida | Ml: " + bebida.getMl());
-    }
-
+    
 	public void CriarCombo(int tipo) {
 		if (tipo == 1) {
 			burguer.setGramas(200);
@@ -32,13 +25,10 @@ public class Combo {
 			bebida.setMl(300);
 		}
 		
-		
-	        System.out.println("Itens do combo");
-	        System.out.println("Burguer | Gramas: " + burguer.getGramas());
-	        System.out.println("Sobremesa | Tamanho: " + sobremesa.getTamanho());
-	        System.out.println("Bebida | Ml: " + bebida.getMl());
-
-
+        System.out.println("Itens do combo\n");
+        System.out.println("Burguer: " + burguer.getDescricao() + " | " + burguer.getGramas() + " gramas");
+        System.out.println("Sobremesa: " + sobremesa.getDescricao() + " | Tamanho " + sobremesa.getTamanho());
+        System.out.println("Bebida: " + bebida.getDescricao() + " | " + bebida.getMl() + " mls");
 	}
 	
 }
