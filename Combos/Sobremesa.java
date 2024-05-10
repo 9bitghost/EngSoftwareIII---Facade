@@ -14,8 +14,9 @@ public class Sobremesa implements Lanche{
 	public String getTamanho() {
         return tamanho;
     }
-
-	public void preco(double preco){
+	
+	public String getDescricao () {
+		return "Sorvete";
 	}
 
 }
