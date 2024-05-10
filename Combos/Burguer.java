@@ -1,6 +1,6 @@
 package Combos;
 
-public class Burguer {
+public class Burguer implements Lanche{
 	
 	 private int gramas;
 	 
@@ -14,5 +14,8 @@ public class Burguer {
 		public int getGramas() {
 	        return gramas;
 	    }
+
+	public void preco(double preco){
+	}
 
 }
