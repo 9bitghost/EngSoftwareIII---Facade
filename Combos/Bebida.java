@@ -14,8 +14,11 @@ public class Bebida implements Lanche{
 		public int getMl() {
 	        return ml;
 	    }
-
-	public void preco (double preco){
-	}
+		
+		public String getDescricao () {
+			return "Coca-cola";
+		}
+		
+	
 
 }
